@@ -13,7 +13,7 @@ const courses = [
 // Get root query
 app.get("/", (req, res) => {
   res.send("Hello world!!");
-}); // get takes two parameters where 1st argument is the root
+}); // get takes two parameters where 1st argument is the path
 
 app.get("/api/courses", (req, res) => {
   res.send(courses);
